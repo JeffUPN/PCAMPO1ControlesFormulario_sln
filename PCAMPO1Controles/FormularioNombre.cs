@@ -8,17 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PCAMPO1ControlesFormulario
+namespace PCAMPO1Controles
 {
-    public partial class Form1 : Form
+    public partial class FormularioNombre : Form
     {
-        public Form1()
+        public FormularioNombre()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnMostrar_Click(object sender, EventArgs e)
         {
+           
+            string nombre = txtNombre.Text;
+            lblResultado.Text = "Hola , " + nombre;
 
         }
     }

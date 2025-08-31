@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PCAMPO1ControlesFormulario
+namespace PCAMPO1Controles
 {
     public partial class Form1 : Form
     {
@@ -17,8 +17,9 @@ namespace PCAMPO1ControlesFormulario
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnMostrar_Click(object sender, EventArgs e)
         {
+
 
         }
     }

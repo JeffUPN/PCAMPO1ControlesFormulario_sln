@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{81084C6E-966B-4840-97C6-4F0E97A1D69B}</ProjectGuid>
+    <ProjectGuid>{1487E5B4-EAD3-4218-8854-13CAAE63471F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PCAMPO1ControlesFormulario</RootNamespace>
-    <AssemblyName>PCAMPO1ControlesFormulario</AssemblyName>
+    <RootNamespace>PCAMPO1Controles</RootNamespace>
+    <AssemblyName>PCAMPO1Controles</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="FormularioNombre.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioNombre.Designer.cs">
+      <DependentUpon>FormularioNombre.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

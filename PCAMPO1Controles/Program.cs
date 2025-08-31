@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PCAMPO1ControlesFormulario
+namespace PCAMPO1Controles
 {
     internal static class Program
     {
